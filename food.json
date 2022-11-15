@@ -1,0 +1,23 @@
+[
+    {
+        "Naam": "spaghetti bolognese",
+        "Catergorie": "pasta",
+        "Allergie": "gluten, ei, selderij",
+        "Oorsprong": "Zuid-Italie",
+        "ID": 1
+    },
+    {
+        "Naam": "sushi",
+        "Catergorie": "rijst",
+        "Allergie": "gluten, eieren, schaaldieren, vis, pinda, soja, melk, noten",
+        "Oorsprong": "Zuidoost-Azie",
+        "ID": 2
+    },
+    {
+        "Naam": "tiramisu",
+        "Catergorie": "dessert",
+        "Allergie": "melk, gluten, ei",
+        "Oorsprong": "Italie",
+        "ID": 3
+    }
+]
