@@ -4,24 +4,24 @@ import json
 food = [
     {
         "Naam": "spaghetti bolognese",
-        "Catergorie": "pasta",
+        "Categorie": "pasta",
         "Allergie": "gluten, ei, selderij",
         "Oorsprong": "Zuid-Italie",
-        "ID": 1
+        "id": 1
     },
     {
         "Naam": "sushi",
-        "Catergorie": "rijst",
+        "Categorie": "rijst",
         "Allergie": "gluten, eieren, schaaldieren, vis, pinda, soja, melk, noten",
         "Oorsprong": "Zuidoost-Azie",
-        "ID": 2
+        "id": 2
     },
     {
         "Naam": "tiramisu",
-        "Catergorie": "dessert",
+        "Categorie": "dessert",
         "Allergie": "melk, gluten, ei",
         "Oorsprong": "Italie",
-        "ID": 3
+        "id": 3
     },
 
 ]

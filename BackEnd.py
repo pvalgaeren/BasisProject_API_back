@@ -1,31 +1,42 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Query
 import json
-import random
+from pydantic import BaseModel
 
 app = FastAPI(debug=True)
+
+class Dish(BaseModel):
+    Naam: str
+    Categorie: str
+    Allergie: str
+    Oorsprong: str
+    id: int
+
 
 with open("food.json") as file:
   menu = json.load(file)
   print(menu)
 
+
+# Het hele menu opvragen
 @app.get("/menu")
 async def get_menu():
     return {"menu": menu}
 
-@app.get("/dish")
-def get_dish():
-    return(menu[random.choice(menu)]['naam'])
 
-        #print()
-        #for value in i:
-            #print(value)
-            #for j in value:
-                #print(j)
-                #if value == "ID":
-                    #list.append(j)
-    #for n in list:
-        #number = random.choice(list)
-        #for k, v in menu:
-            #if k == 'ID' and v == number:
-                #if k == 'naam':
-                   #return(v)
+# Een gerecht uit de menukaart halen via het id
+@app.get("/dish/{number}", tags=["id"])
+async def get_dish(number: int | None = Query(
+    default=None,
+    description="Het id van het gerecht waar je meer informatie over wil.")):
+    if number in menu:
+        return menu[number]
+    else:
+        return "Het id dat u heb opgegeven hoort niet bij een gerecht"
+
+
+# Een gerecht toevoegen aan de menukaart
+@app.post("/new_dish", response_model=Dish, tags=["menu"])
+async def make_new_dish(dish: Dish):
+    key= max(menu, key=menu.get) + 1
+    menu[key] = dish
+    return menu[key]
