@@ -8,5 +8,5 @@ Ook kan je zelf nog gerechten toevoegen voor mocht jou lievelingsgerecht er nog 
 
 ## Links
 - Link naar hosted API:
-- Link naar front-end Github:
+- Link naar front-end Github: https://github.com/pvalgaeren/BasisProject_API_front/tree/master 
 - Link naar hosted front-end:
