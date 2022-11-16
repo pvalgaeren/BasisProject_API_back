@@ -13,7 +13,7 @@ class Dish(BaseModel):
     Oorsprong: str
     id: int
 
-
+# Open json file
 with open("food.json") as file:
   menu = json.load(file)
   print(menu)
@@ -30,10 +30,7 @@ async def get_dish():
     return{"dish": random.choice(menu)}
 
 
-
 # Een gerecht toevoegen aan de menukaart
-@app.post("/new_dish", response_model=Dish, tags=["menu"])
+@app.post("/new_dish", response_model=Dish)
 async def make_new_dish(dish: Dish):
-    key = max(menu, key=menu.get) + 1
-    menu[key] = dish
-    return menu[key]
+    return dish
