@@ -1,6 +1,6 @@
 version: "3.9"
 services:
  food-service:
-  image: pvalgaeren/BasisProject_API_back
+  image: pvalgaeren/basisProject_API_back
   ports:
     - "8000:8000"
