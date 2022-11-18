@@ -15,10 +15,13 @@ Zelf kan je natuurlijk ook nog wat gerechten toevoegen, dit is natuurlijk handig
 ## Foto's postman
 # GET request 1
 Met dit get request kan je de gehele menu opvragen, zo kan je alle gerechten bekijken. 
+![image](https://user-images.githubusercontent.com/91118410/202702103-b187096a-04c7-4922-82e2-fdfa960ec156.png)
 
 
 # GET request 2
 Met dit get request wordt er een willekeurig gerecht gekozen. Dit maakt voor jou de keuze gemakkelijker voor als je niet goed weet wat te eten. 
+![image](https://user-images.githubusercontent.com/91118410/202702273-686ab3d9-1862-4703-8120-5ea72d66b000.png)
+
 
 # POST request 
 Met behulp van dit request kan je zelf nog een gerecht toevoegen aan de menulijst. 
