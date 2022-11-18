@@ -15,17 +15,16 @@ Zelf kan je natuurlijk ook nog wat gerechten toevoegen, dit is natuurlijk handig
 # Foto's postman
 ## GET request 1
 Met dit get request kan je de gehele menu opvragen, zo kan je alle gerechten bekijken. 
-![image](https://user-images.githubusercontent.com/91118410/202702103-b187096a-04c7-4922-82e2-fdfa960ec156.png)
-
+![image](https://user-images.githubusercontent.com/91118410/202758692-e9f1f1b9-7126-4c46-a271-ea09752e5093.png)
 
 ## GET request 2
 Met dit get request wordt er een willekeurig gerecht gekozen. Dit maakt voor jou de keuze gemakkelijker voor als je niet goed weet wat te eten. 
-![image](https://user-images.githubusercontent.com/91118410/202702273-686ab3d9-1862-4703-8120-5ea72d66b000.png)
+![image](https://user-images.githubusercontent.com/91118410/202758776-456412d1-177c-483a-9a84-a3e73de6b179.png)
 
 
 ## POST request 
 Met behulp van dit request kan je zelf nog een gerecht toevoegen aan de menulijst. 
-![image](https://user-images.githubusercontent.com/91118410/202701928-8e8cf464-fc0c-472d-9a28-796cbe8eaaaf.png)
+![image](https://user-images.githubusercontent.com/91118410/202758980-f5bd9a2e-d7aa-493b-8dd3-3587e4bdd436.png)
 
 
 # OpenAPI docs screenshots
