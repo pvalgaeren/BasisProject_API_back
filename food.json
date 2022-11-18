@@ -20,7 +20,13 @@
             "Allergie": "melk, gluten, ei",
             "Oorsprong": "Italie",
             "id": 3
+        },
+        {
+            "Naam": "macaroni",
+            "Categorie": "pasta",
+            "Allergie": "melk, gluten",
+            "Oorsprong": "Italie",
+            "id": 4
         }
-
     ]
 }

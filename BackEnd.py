@@ -14,7 +14,6 @@ class Dish(BaseModel):
     id: int
 
 # Open json file
-menu = {}
 with open("food.json") as file:
   menu = json.load(file)
   print(menu)
