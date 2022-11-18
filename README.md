@@ -27,3 +27,5 @@ Met dit get request wordt er een willekeurig gerecht gekozen. Dit maakt voor jou
 Met behulp van dit request kan je zelf nog een gerecht toevoegen aan de menulijst. 
 ![image](https://user-images.githubusercontent.com/91118410/202701928-8e8cf464-fc0c-472d-9a28-796cbe8eaaaf.png)
 
+
+## OpenAPI docs screenshots
