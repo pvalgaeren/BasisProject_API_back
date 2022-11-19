@@ -9,7 +9,7 @@ Zelf kan je natuurlijk ook nog wat gerechten toevoegen, dit is natuurlijk handig
 
 ## Links
 - Link naar hosted API:
-- Link naar front-end Github: https://github.com/pvalgaeren/BasisProject_API_front/tree/master 
+- Link naar front-end Github:https://github.com/pvalgaeren/api_front/tree/master 
 - Link naar hosted front-end:
 
 # Foto's postman
