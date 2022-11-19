@@ -14,7 +14,7 @@ class Dish(BaseModel):
     id: int
 
 # Open json file
-with open("food.json") as file:
+with open("../food.json") as file:
   menu = json.load(file)
   print(menu)
 
@@ -34,6 +34,6 @@ async def get_dish():
 @app.post("/new_dish", response_model=Dish)
 async def make_new_dish(dish: Dish):
     menu["menu"].append(dish.dict())
-    with open("food.json", "w") as file:
+    with open("../food.json", "w") as file:
         json.dump(menu, file, indent=4)
     return dish
