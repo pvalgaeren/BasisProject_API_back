@@ -29,12 +29,18 @@ Met behulp van dit request kan je zelf nog een gerecht toevoegen aan de menulijs
 
 # OpenAPI docs screenshots
 ## get menu
-![image](https://user-images.githubusercontent.com/91118410/202904211-73af87ac-afbb-4bcc-89d6-de87e5a55d62.png)
+![image](https://user-images.githubusercontent.com/91118410/202908702-fbfe2a8c-ffe0-4f28-992a-c5b611fa3c3e.png)
+![image](https://user-images.githubusercontent.com/91118410/202908725-341f67d5-90eb-45cc-bfc5-7dc8973e03fc.png)
+
 
 ## get dish
-![image](https://user-images.githubusercontent.com/91118410/202904242-b159268a-96d1-4ff8-93d0-a36250e00970.png)
+![image](https://user-images.githubusercontent.com/91118410/202908756-8d439498-ae5e-4266-976c-b8116e8cf970.png)
+![image](https://user-images.githubusercontent.com/91118410/202908771-972c4686-d513-43fa-b889-fa521d0491d7.png)
+
 
 ## post new_dish
-![image](https://user-images.githubusercontent.com/91118410/202906353-b5b9c528-4696-4786-a764-cbe5729d29d9.png)
-![image](https://user-images.githubusercontent.com/91118410/202906404-f7094c03-b5e0-4567-9a6d-01b238800de4.png)
+![image](https://user-images.githubusercontent.com/91118410/202908889-b9402f98-39bb-44b3-b1b1-9f76350cdb7e.png)
+![image](https://user-images.githubusercontent.com/91118410/202908912-c601c2fb-5bf3-4afb-a275-79d3d8440e31.png)
+![image](https://user-images.githubusercontent.com/91118410/202908919-df5de232-d112-494d-ae56-0edfb0ea1608.png)
+
 
